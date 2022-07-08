@@ -1,25 +1,60 @@
 body {
-    height: 100%;
-    margin: 0;
-    background-color: #E5E5E5;
-    font-family: 'RobotoDraft', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #e5e5e5;
+  font-family: "RobotoDraft", sans-serif;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .upperArticle,
 .lowerArticle {
-    min-height: 20px;
-    padding: 19px;
-    margin-bottom: 20px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
-    border-radius: 2px;
-    border: 0;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  border-radius: 2px;
+  border: 0;
+  width: 80vw;
+  background-color: white;
 }
 
 .upperArticle.title {
-    font-weight: 300;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    line-height: 1.1;
-    color: inherit;
+  font-weight: 300;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.game-text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.game-input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 70px;
+}
+
+.game-btn {
+  color: white;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 15px;
+  background-color: rgb(89, 155, 93);
+  border: none;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
 }
